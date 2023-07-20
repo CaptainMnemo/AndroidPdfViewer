@@ -81,6 +81,7 @@ class PdfFile {
         this.pdfDocument = pdfDocument;
         this.pageFitPolicy = pageFitPolicy;
         this.originalUserPages = originalUserPages;
+        // MR isVertical forces baseline
         this.isVertical = isVertical;
         this.spacingPx = spacing;
         this.autoSpacing = autoSpacing;
